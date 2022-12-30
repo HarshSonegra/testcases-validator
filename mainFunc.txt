@@ -1,0 +1,6 @@
+int main(int arg , char**args){
+    #ifndef ONLINE_JUDGE
+        freopen(args[1],"r",stdin);
+        freopen("output.txt","w",stdout);
+    #endif
+}
