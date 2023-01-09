@@ -57,7 +57,7 @@ if __name__ == "__main__":
         data["PassedCases"].append(studentPassedCases)
     
     data = pd.DataFrame(data) 
-    data.to_excel("output.xlsx")
+    data.to_excel("output.xlsx",index=False)
 
     os.remove(cwd + "\\output.txt")
     if(os.path.exists(f'{os.getcwd()}\\stu.exe')):
