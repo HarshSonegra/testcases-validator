@@ -63,5 +63,5 @@ if __name__ == "__main__":
     if(os.path.exists(f'{os.getcwd()}\\stu.exe')):
         os.remove(cwd + "\\stu.exe")
 
-    print(f'\n\nMade by Harsh Sonegra Bharatbhai Enr: 206270307079\nStudent Of Computer Engineering Year:2020-2023\nIdea suggested by Charag Nathwani Sir \nGovernment Polytechnic Porbandar ')
+    print(f'\n\nMade by Harsh Sonegra Bharatbhai Enr: 206270307079\nStudent Of Computer Engineering Year:2020-2023\nIdea suggested by Chirag Nathwani Sir \nGovernment Polytechnic Porbandar ')
     x = input("Enter any key to exit")
